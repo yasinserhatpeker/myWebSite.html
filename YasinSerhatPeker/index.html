@@ -39,12 +39,28 @@
     .banner-desc{
       position: absolute;
       bottom: 20%;
-      left: 39%;
+      left: 37.5%;
+      
 
       
       
     }
-    .banner-desc
+    .banner-desc span {
+      font-weight: 800;
+      color: gray;
+      padding-top:5px;
+    }
+    .banner-desc .about {
+      display: flex;
+      justify-content: center;
+      background-color: red;
+      margin-top: 12px;
+      color: #fff;
+      border-radius: 15px;
+      padding: 3px;
+     text-decoration: none;
+
+    }
    
 
   </style>
@@ -83,23 +99,29 @@
         </div>
       </nav>
 
-      <div class="container">
-        <div class="banner">
-          <div class="banner-image d-flex justify-content-center">
-            <img src="/YasinSerhatPeker/image/human2.jpg" alt="">
-             
-          </div>
-          <div class="banner-desc d-flex flex-column ">
-               <h1 class="d-flex justify-content-center fw-bold">Yasin Peker</h1>
-                 <span>Fullstack Web Developer - Consultant</span>
-                 <span>Hakkımda</span>
-  
-          </div>
 
-
-        </div>
-        
+ <section id="home">
+  <div class="container">
+    <div class="banner">
+      <div class="banner-image d-flex justify-content-center">
+        <img src="/YasinSerhatPeker/image/human2.jpg" alt="">
+         
       </div>
+      <div class="banner-desc d-flex flex-column ">
+           <h1 class="d-flex justify-content-center fw-bold">Yasin Peker</h1>
+             <span>Fullstack Web Developer - Consultant</span>
+             <span > <a href="#" class="about">Hakkımda</a></span>
+
+      </div>
+
+
+    </div>
+    
+  </div>
+
+
+ </section>
+   
 
 
 
